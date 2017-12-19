@@ -1,0 +1,45 @@
+.btn{
+    text-transform: capitalize;
+}
+.btn-brand{
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    padding: 14px 22px;
+    line-height: 29px;
+    font-family: 'Lato-Black';
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+} 
+
+.btn-brand--danger{
+    background: #FF5A5F;
+    color: #FFF;
+}
+
+.btn-brand--yellow{
+    background: $brand_color_yellow;
+    color: #555555 !important;
+}
+
+.btn-brand--primary{
+    background: #6EC0D4;
+    color: #FFF;
+}
+
+.btn--brand-outline{
+    box-shadow: none;
+    border: 1px solid $brand_color_yellow;
+    color: $brand_color_yellow !important;
+    background-color: transparent;
+    padding: 13px 22px;
+    &:hover{
+        box-shadow: none !important;
+    }
+}
+
+.btn--brand-round{
+    border-radius: 40px !important;
+}

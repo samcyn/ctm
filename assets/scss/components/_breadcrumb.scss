@@ -1,0 +1,32 @@
+.breadcrumb-container{
+    position: absolute;
+    top: -58px;
+    @media(max-width: 475px){
+        display: none;
+    }
+}
+.breadcrumb{
+    background-color: transparent;
+    padding-left: 0 !important;
+    margin-bottom: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #868e96;
+    content: ">" !important;
+}
+
+.breadcrumb-item.active, .breadcrumb-item a {
+    line-height: 23px;
+    font-family: 'Nunito-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    color: #BDBDBD;
+}
+.breadcrumb-item.active{
+    color: #828282 !important;
+}
+//color: #bdbdbd; 
