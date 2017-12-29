@@ -4,10 +4,10 @@
 .btn-brand{
     border-radius: 4px !important;
     box-shadow: none !important;
-    padding: 14px 22px;
-    line-height: 29px;
+    padding: 13px 22px;
+    line-height: 22px;
     font-family: 'Lato-Black';
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
@@ -34,7 +34,7 @@
     border: 1px solid $brand_color_yellow;
     color: $brand_color_yellow !important;
     background-color: transparent;
-    padding: 13px 22px;
+    padding: 12px 22px;
     &:hover{
         box-shadow: none !important;
     }

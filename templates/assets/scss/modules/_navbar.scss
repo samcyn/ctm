@@ -43,18 +43,14 @@
 		font-family: $navbar_font-family;
 		font-weight: $navlink_fontweight;
 		text-transform: capitalize;
+		font-style: normal;
+		font-stretch: normal;
+		letter-spacing: normal;
 		i{
 			font-size: 30px;
 		}
 	}
 
-	.nav-link__red{
-		color: $navlink_color_red !important;
-	}
-
-	.nav-link__blue{
-		color: $navlink_color_blue !important;
-	}
 	.nav-link__badge{
 		display: flex;
 		justify-content: center;
