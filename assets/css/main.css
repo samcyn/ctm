@@ -4,12 +4,8 @@
     max-width: 1210px !important;
   }
   /* line 5, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_containers.scss */
-  .container--smaller {
-    max-width: 950px !important;
-  }
-  /* line 8, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_containers.scss */
-  .container--w754 {
-    max-width: 754px !important;
+  .container--product {
+    max-width: 782px !important;
   }
 }
 
@@ -312,30 +308,23 @@ body {
 
 /* line 39, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
 .navbar .nav-link {
-  font-size: 20px;
-  line-height: 26px !important;
+  font-size: 24px;
+  line-height: 29px !important;
   padding: 17px 8px !important;
-  font-family: "Nunito-SemiBold";
-  font-weight: 600;
+  font-family: "Lato-Light";
+  font-weight: 300;
   text-transform: capitalize;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
 }
 
-/* line 46, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
+/* line 49, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
 .navbar .nav-link i {
   font-size: 30px;
 }
 
-/* line 51, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
-.navbar .nav-link__red {
-  color: #FF5A5F !important;
-}
-
-/* line 55, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
-.navbar .nav-link__blue {
-  color: #6EC0D4 !important;
-}
-
-/* line 58, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
+/* line 54, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
 .navbar .nav-link__badge {
   display: flex;
   justify-content: center;
@@ -348,165 +337,19 @@ body {
   right: 5px;
 }
 
-/* line 69, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
+/* line 65, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
 .navbar .nav-item {
   position: relative;
 }
 
-/* line 72, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
+/* line 68, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
 .navbar .nav-item:last-child .nav-link {
   padding-right: 0 !important;
 }
 
-/* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.nav-open .rightSideBar {
-  -webkit-transform: translate3d(0px, 0, 0);
-  -moz-transform: translate3d(0px, 0, 0);
-  -o-transform: translate3d(0px, 0, 0);
-  -ms-transform: translate3d(0px, 0, 0);
-  transform: translate3d(0px, 0, 0);
-}
-
-/* line 9, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar {
-  border-left: 1px solid #F2F2F2;
-  position: fixed;
-  display: block;
-  top: 0;
-  height: 100%;
-  width: 300px;
-  right: 0;
-  z-index: 1032;
-  visibility: visible;
-  background: #F2F2F2;
-  overflow-y: visible;
-  border-top: none;
-  text-align: left;
-  padding: 145px 0px 0px 0px;
-  -webkit-transform: translate3d(300px, 0, 0);
-  -moz-transform: translate3d(300px, 0, 0);
-  -o-transform: translate3d(300px, 0, 0);
-  -ms-transform: translate3d(300px, 0, 0);
-  transform: translate3d(300px, 0, 0);
-  -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-}
-
-/* line 34, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus {
-  list-style-type: none;
-  padding-left: 0 !important;
-  text-align: right;
-}
-
-/* line 38, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus a {
-  display: block;
-  padding: 15px;
-}
-
-/* line 42, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .nav-item {
-  border-bottom: 1px solid #F2F2F2;
-}
-
-/* line 45, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .nav-item.active .nav-link {
-  background-color: #E0E0E0;
-}
-
-/* line 49, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .nav-item a {
-  font-size: 20px;
-  padding: 17px 67px !important;
-  text-transform: capitalize;
-  line-height: 26px;
-  font-family: 'Nunito-Bold';
-  font-weight: bold;
-  color: #828282;
-}
-
-/* line 57, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .nav-item a.nav-link__red {
-  color: #FF5A5F !important;
-}
-
-/* line 61, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .nav-item a.nav-link__blue {
-  color: #6EC0D4 !important;
-}
-
-/* line 69, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .btn--brand-outline {
-  line-height: 21px;
-  font-family: 'Nunito-ExtraBold';
-  font-size: 16px;
-  font-weight: 800;
-}
-
-/* line 75, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .menus__heading {
-  line-height: 26px;
-  font-family: 'Nunito-Bold';
-  font-size: 20px;
-  font-weight: bold;
-  color: #4F4F4F;
-  margin-bottom: 8px;
-}
-
-/* line 83, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-.rightSideBar .menus .menus__paragraph {
-  line-height: 21px;
-  font-family: 'Nunito-Bold';
-  font-size: 16px;
-  font-weight: bold;
-  color: #828282;
-  margin-bottom: 11px;
-}
-
-/* line 94, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-#bodyClick {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: auto;
-  right: 300px;
-  content: "";
-  z-index: 9999;
-  overflow-x: hidden;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-@media (max-width: 991px) {
-  /* line 109, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-  .nav-open .wrapper {
-    left: 0;
-    -webkit-transform: translate3d(-300px, 0, 0);
-    -moz-transform: translate3d(-300px, 0, 0);
-    -o-transform: translate3d(-300px, 0, 0);
-    -ms-transform: translate3d(-300px, 0, 0);
-    transform: translate3d(-300px, 0, 0);
-  }
-}
-
-@media (max-width: 991px) {
-  /* line 120, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_rightSideBar.scss */
-  .wrapper {
-    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-  }
-}
-
 /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .landing-page {
-  background-image: url(https://i.ytimg.com/vi/t1Dnanz8u9M/maxresdefault.jpg);
+  background-image: url(../../assets/img/backgrounds/landing_page.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -515,14 +358,14 @@ body {
   width: 100vw;
 }
 
-/* line 11, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
+/* line 10, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .landing-page header, .landing-page main {
   position: relative;
 }
 
-/* line 14, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
+/* line 13, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .landing-page:before {
-  background: rgba(0, 0, 0, 0.87);
+  background: rgba(0, 0, 0, 0.47);
   content: '';
   position: absolute;
   display: block;
@@ -535,13 +378,13 @@ body {
   opacity: 0.75;
 }
 
-/* line 30, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
+/* line 29, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .index-page__intro {
   max-width: 653px;
   padding-top: 98px;
 }
 
-/* line 35, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
+/* line 34, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .index-page__headlines {
   font-family: 'Lato-Bold';
   font-size: 44px;
@@ -553,16 +396,149 @@ body {
   color: #FFFFFF;
 }
 
-/* line 46, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
+/* line 45, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .index-page__button-group {
   position: fixed;
   right: 70px;
   bottom: 40px;
 }
 
-/* line 50, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
+/* line 49, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
 .index-page__button-group .btn {
   width: 263px;
+}
+
+/* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+body {
+  overflow-x: hidden;
+  background: url(../../assets/img/backgrounds/products-list-background.png) repeat fixed;
+}
+
+/* line 6, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products .card {
+  border-radius: 3px !important;
+  box-shadow: 2px 2px 4px 0 #9b9b9b;
+  border: solid 1px #f6334b;
+  margin-bottom: 48px;
+}
+
+/* line 11, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products .card .view.overlay {
+  padding: 24px 30px;
+}
+
+/* line 17, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__menu {
+  flex: 0 0 102px;
+  padding: 0 15px 0 0;
+}
+
+/* line 22, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__gallery {
+  flex: 0 0 calc(100% - 204px);
+  padding: 0 15px;
+}
+
+/* line 27, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__gallery-container {
+  width: 100%;
+  max-width: 782px;
+  margin: 0 auto;
+}
+
+/* line 33, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__search-bar {
+  margin-bottom: 32px;
+}
+
+/* line 35, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__search-bar input[type='search'] {
+  border-bottom: 4px solid #42E1A6;
+  line-height: 29px;
+  font-family: 'Lato-Regular';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+/* line 45, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__search-bar input[type='search']:focus:not([readonly]) {
+  border-bottom: 4px solid #42E1A6 !important;
+  box-shadow: none !important;
+}
+
+/* line 52, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.product__filter-name {
+  line-height: 22px;
+  font-family: 'Lato-Bold';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #404042;
+  margin: 16px 0 0 0 !important;
+  text-align: center;
+}
+
+/* line 64, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__list-items {
+  background: #FFFFFF;
+  border-radius: 100%;
+  border: 4px solid #FFF000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  width: 72px;
+  margin-bottom: 48px;
+  box-shadow: 2px 2px 4px 0 #9b9b9b;
+}
+
+/* line 65, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__list-items [class*='fa-'] {
+  font-size: 28px;
+}
+
+/* line 80, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.projects__img-list {
+  height: 96px;
+  width: 96px;
+  border-radius: 100% !important;
+  margin: 0 auto;
+}
+
+/* line 87, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__text {
+  text-align: center;
+  margin: 16px 0 0 0 !important;
+  line-height: 22px;
+  font-family: 'Lato-Regular';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+/* line 101, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__filter {
+  margin-bottom: 56px;
+}
+
+/* line 103, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__filter .col {
+  max-width: 106px;
+  text-align: center;
+}
+
+/* line 4, /home/jide/Documents/repos/ctm/templates/assets/scss/layout/_main.scss */
+main {
+  padding-top: 96px !important;
 }
 
 /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/layout/_footer.scss */
@@ -629,10 +605,10 @@ body {
 .btn-brand {
   border-radius: 4px !important;
   box-shadow: none !important;
-  padding: 14px 22px;
-  line-height: 29px;
+  padding: 13px 22px;
+  line-height: 22px;
   font-family: 'Lato-Black';
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -663,7 +639,7 @@ body {
   border: 1px solid #FFF000;
   color: #FFF000 !important;
   background-color: transparent;
-  padding: 13px 22px;
+  padding: 12px 22px;
 }
 
 /* line 38, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */

@@ -1,6 +1,5 @@
 .landing-page{
-
-    background-image: url(https://i.ytimg.com/vi/t1Dnanz8u9M/maxresdefault.jpg);
+    background-image: url(../../assets/img/backgrounds/landing_page.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +11,7 @@
         position: relative;
     }
     &:before{
-        background: rgba(0, 0, 0, 0.87);
+        background: rgba(0, 0, 0, 0.47);
         content: '';
         position: absolute;
         display: block;
