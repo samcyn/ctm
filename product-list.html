@@ -63,18 +63,18 @@
                         <div class="products__menu">
                             <ul class="list-style-type-none pl-0">
                                 <li>
-                                    <a class="products__list-items">
-                                        <i class="fa fa-file-o" aria-hidden="true"></i>
+                                    <a class="products__circle products__circle-menu">
+                                        <img src="assets/img/icons/list.png" style="width: 25px; height: 32px;"/>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="products__list-items">
-                                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    <a class="products__circle products__circle-menu">
+                                        <img src="assets/img/icons/time.png" style="width: 32px; height: 32px;"/>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="products__list-items">
-                                        <i class="fa fa-file-o" aria-hidden="true"></i>
+                                    <a class="products__circle products__circle-menu">
+                                        <img src="assets/img/icons/switch.png" style="width: 32px; height: 20px;"/>
                                     </a>
                                 </li>
                             </ul>
@@ -87,34 +87,34 @@
                                 <div class="products__filter">
                                     <div class="row justify-content-between">
                                         <div class="col">
-                                            <a class="thumbnail text-left">
-                                                <div class="products__icon-wrapper">
-                                                    <img src="assets/img/icons/grains.png" class="products__icon"> 
+                                            <a class="thumbnail text-left" data-group="grains">
+                                                <div class="products__circle products__circle-crimson-bg">
+                                                    <img src="assets/img/icons/wheat.png" class="products__icon"> 
                                                 </div>
                                                 <p class="product__filter-name">Grains</p>
                                             </a>
                                         </div>
                                         <div class="col">
-                                            <a class="thumbnail text-center">
-                                                <div class="products__icon-wrapper">
-                                                    <img src="assets/img/icons/fruit.png" class="products__icon"> 
+                                            <a class="thumbnail text-center" data-group="fruit_vegetables">
+                                                <div class="products__circle products__circle-orange-bg">
+                                                    <img src="assets/img/icons/carrot.png" class="products__icon"> 
                                                 </div>
                                                 <p class="product__filter-name">Fruits 
                                                     & Vegetables</p>
                                             </a>
                                         </div>
                                         <div class="col">
-                                            <a class="thumbnail text-center">
-                                                <div class="products__icon-wrapper">
+                                            <a class="thumbnail text-center" data-group="local_products">
+                                                <div class="products__circle products__circle-green-bg">
                                                     <img src="assets/img/icons/banana.png" class="products__icon"> 
                                                 </div>
                                                 <p class="product__filter-name">Local Products</p>
                                             </a>
                                         </div>
                                         <div class="col">
-                                            <a class="thumbnail text-right">
-                                                <div class="products__icon-wrapper">
-                                                    <img src="assets/img/icons/nuts.png" class="products__icon"> 
+                                            <a class="thumbnail text-right" data-group="nuts_oils">
+                                                <div class="products__circle products__circle-brown-bg">
+                                                    <img src="assets/img/icons/almond.png" class="products__icon"> 
                                                 </div>
                                                 <p class="product__filter-name">Nuts & Oils</p>
                                             </a>
@@ -123,12 +123,12 @@
                                 </div>
 
                                 <div class="products__list">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-3 col-md-3">
+                                    <div class="row" id="grid">
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["grains"]'>
                                             <div class="card">   
                                                 <!--Card image-->
                                                 <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
                                                     <p class="products__text">Abakaliki rice</p>
                                                     <a href="#">
                                                         <div class="mask"></div>
@@ -136,11 +136,95 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["fruit_vegetables"]'>
                                             <div class="card">   
                                                 <!--Card image-->
                                                 <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Agbalumo</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["local_products"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Avocado</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["nuts_oils"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Banana</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["fruit_vegetables"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Beans</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["nuts_oils"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Cabbage</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["grains"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Carrots</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["local_products"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
+                                                    <p class="products__text">Coconut</p>
+                                                    <a href="#">
+                                                        <div class="mask"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["fruit_vegetables"]'>
+                                            <div class="card">   
+                                                <!--Card image-->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
                                                     <p class="products__text">Abakaliki rice</p>
                                                     <a href="#">
                                                         <div class="mask"></div>
@@ -148,11 +232,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["local_products"]'>
                                             <div class="card">   
                                                 <!--Card image-->
                                                 <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
                                                     <p class="products__text">Abakaliki rice</p>
                                                     <a href="#">
                                                         <div class="mask"></div>
@@ -160,11 +244,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["nuts_oils"]'>
                                             <div class="card">   
                                                 <!--Card image-->
                                                 <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
                                                     <p class="products__text">Abakaliki rice</p>
                                                     <a href="#">
                                                         <div class="mask"></div>
@@ -172,11 +256,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
+                                        <div class="col-12 col-sm-3 col-md-3 products__column" data-groups='["grains"]'>
                                             <div class="card">   
                                                 <!--Card image-->
                                                 <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
+                                                    <img src="assets/img/products/rice.png" class="projects__img-list" alt="">
                                                     <p class="products__text">Abakaliki rice</p>
                                                     <a href="#">
                                                         <div class="mask"></div>
@@ -184,90 +268,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-sm-3 col-md-3">
-                                            <div class="card">   
-                                                <!--Card image-->
-                                                <div class="view overlay hm-white-slight">
-                                                    <img src="assets/img/faces/face.png" class="projects__img-list" alt="">
-                                                    <p class="products__text">Abakaliki rice</p>
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div class="col-1 col-sm-1 col-md-1 my-sizer-element"></div>
                                     </div>
                                 </div>
                             </div>
@@ -284,14 +285,16 @@
 
 		<script type="text/javascript" src="assets/node_modules/mdbootstrap/js/popper.min.js"></script>
 
-		<script type="text/javascript" src="assets/node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="assets/node_modules/shufflejs/shuffle.min.js"></script>
        
         <!-- Main Js -->
         <script type="text/javascript" src="assets/js/main.js"></script>
         
         <script>
             
-            
+            app.shuffleProducts();
         </script>
 		
 	</body>

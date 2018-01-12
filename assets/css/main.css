@@ -484,25 +484,70 @@ body {
 }
 
 /* line 64, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
-.products__list-items {
+.products__circle {
   background: #FFFFFF;
   border-radius: 100%;
-  border: 4px solid #FFF000;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 72px;
   width: 72px;
-  margin-bottom: 48px;
-  box-shadow: 2px 2px 4px 0 #9b9b9b;
+  border: 2px solid #FFFFFF;
 }
 
 /* line 65, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
-.products__list-items [class*='fa-'] {
+.products__circle [class*='fa-'] {
   font-size: 28px;
 }
 
-/* line 80, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 76, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__circle.products__circle-menu {
+  border: 4px solid #FFF000;
+  box-shadow: 2px 2px 4px 0 #9b9b9b;
+  margin-bottom: 48px;
+}
+
+/* line 81, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__circle.products__circle-crimson-bg {
+  border-color: #D0021B;
+}
+
+/* line 84, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__circle.products__circle-orange-bg {
+  border-color: #F79D0B;
+}
+
+/* line 87, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__circle.products__circle-green-bg {
+  border-color: #6DA544;
+}
+
+/* line 90, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__circle.products__circle-brown-bg {
+  border-color: #8B572A;
+}
+
+/* line 95, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__active .products__circle-crimson-bg {
+  background: #D0021B;
+}
+
+/* line 98, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__active .products__circle-orange-bg {
+  background: #F79D0B;
+}
+
+/* line 101, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__active .products__circle-green-bg {
+  background: #6DA544;
+}
+
+/* line 104, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__active .products__circle-brown-bg {
+  background: #8B572A;
+}
+
+/* line 109, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__img-list {
   height: 96px;
   width: 96px;
@@ -510,7 +555,7 @@ body {
   margin: 0 auto;
 }
 
-/* line 87, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 116, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__text {
   text-align: center;
   margin: 16px 0 0 0 !important;
@@ -525,19 +570,19 @@ body {
   color: #555555;
 }
 
-/* line 101, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 130, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__filter {
   margin-bottom: 56px;
 }
 
-/* line 103, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 132, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__filter .col {
   max-width: 106px;
   text-align: center;
 }
 
 /* line 4, /home/jide/Documents/repos/ctm/templates/assets/scss/layout/_main.scss */
-main {
+section.products {
   padding-top: 96px !important;
 }
 

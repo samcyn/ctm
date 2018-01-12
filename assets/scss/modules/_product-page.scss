@@ -61,20 +61,49 @@ body{
     text-align: center;
 }
 
-.products__list-items{
+.products__circle{
     [class*='fa-']{
         font-size: 28px;
     }
     background: $brand-color-white;
     border-radius: 100%;
-    border: 4px solid $brand-color-yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 72px;
     width: 72px;
-    margin-bottom: 48px;
-    box-shadow: 2px 2px 4px 0 #9b9b9b;
+    border: 2px solid $brand-color-white;
+    &.products__circle-menu{
+        border: 4px solid $brand-color-yellow;
+        box-shadow: 2px 2px 4px 0 #9b9b9b;
+        margin-bottom: 48px;
+    }
+    &.products__circle-crimson-bg{
+        border-color: $brand_color_crimson;
+    }
+    &.products__circle-orange-bg{
+        border-color: $brand_color_orange;
+    }
+    &.products__circle-green-bg{
+        border-color: $brand_color_green;
+    }
+    &.products__circle-brown-bg{
+        border-color: $brand_color_brown;
+    }
+}
+.products__active{
+    .products__circle-crimson-bg{
+        background: $brand_color_crimson;
+    }
+    .products__circle-orange-bg{
+        background: $brand_color_orange;
+    }
+    .products__circle-green-bg{
+        background: $brand_color_green;
+    }
+    .products__circle-brown-bg{
+        background: $brand_color_brown;
+    }
 }
 
 .projects__img-list{
