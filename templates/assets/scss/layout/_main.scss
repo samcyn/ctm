@@ -1,7 +1,5 @@
+@import '../modules/_accounts.scss';
 @import '../modules/_landing-page.scss';
 @import '../modules/_product-page.scss';
 @import '../components/_breadcrumb.scss';
-
-section.products{
-   //padding-top: 96px !important;
-}
+@import '../components/_modals.scss';

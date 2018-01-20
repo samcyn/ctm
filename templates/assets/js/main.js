@@ -1,19 +1,19 @@
 var app = {
     custombox: function(){
         var $btn = $(document).find('.modal_btn');
-         
+
         if(!$btn){
             return;
         }
         $btn.on('click', function(){
         
-            var _dataAttr = $(this).data("modal");
-  
+            //var _dataAttr = $(this).data("modal");
+            
             // Instantiate new modal
             var modal = new Custombox.modal({
                 content: {
                     effect: 'fadein',
-                    target: '#' + _dataAttr
+                    target: '#modal'
                 },
                 // Options
                 loader : {
@@ -27,115 +27,6 @@ var app = {
             modal.open();
         });
         
-    },
-    loaderHandler: function(arg){
-
-        var pageWrap = $('.wrapper'),
-        pages = $('.page_container'),
-        loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 400, easingIn : mina.easeinout } );
-
-        function init() {
-            loader.show();
-           
-            setTimeout( function() {
-                loader.hide();
-
-                pageWrap.find('.page_container').removeClass('show');
-                
-                $(arg).addClass('show');
-                window.location.hash = arg;
-            }, 2000 ); 	
-        }
-
-        init();
-    },
-    pageLinks: function(){
-        var _this = this;
-       
-       // _links =  $('a.pageload-link');
-        $(document).on("click", 'a.pageload-link', function(e){
-            e.preventDefault();
-            //close navbar 
-            //$('html').removeClass('nav-open'); 
-            $('html').removeClass('nav-open');
-            $('#bodyClick').remove();
-
-            var $this = $(this),
-            _checker = window.location.hash || '#landing_page';
-            
-            console.log($this[0].hash, _checker);
-            if($this[0].hash === _checker){
-                return;
-            }
-            _checker = $this[0].hash;
-            _this.loaderHandler(_checker);
-
-        });
-
-        // _links.on("click", function(e){
-           
-        //     e.preventDefault();
-
-        //     var $this = $(this),
-        //     _checker = window.location.hash || '#landing_page';
-           
-        //     console.log($this[0].hash, _checker);
-        //     if($this[0].hash === _checker){
-        //         return;
-        //     }
-        //     _checker = $this[0].hash;
-        //     _this.loaderHandler(_checker);
-
-        // });
-    },
-    login_form: function(){
-        var _this = this;
-        $(document).on('submit', 'form', function(e){
-            e.preventDefault();
-            //console.log($(this).attr('id'));
-            var formInstance = $(this).parsley();
-            
-            if(!formInstance.isValid()){
-                return;
-            }
-
-            var _id = $(this).attr('id');
-            if(_id === 'signin__form'){
-                //_this.loaderHandler("#projects_2");
-                window.location.href = 'projects.html';
-                return;
-            }
-            else if(_id === 'signup__form'){
-                //_this.loaderHandler("#create_project");
-                window.location.href = 'projects.html#create_project';
-                //_this.loaderHandler("#create_project");
-                return;
-            }
-            else if(_id === 'modal__form'){
-                 Custombox.modal.close()
-                _this.loaderHandler("#projects_3");
-                return;
-            }
-            else{
-                _this.loaderHandler("#image_upload");
-            }
-
-           
-        });
-    },
-    onPageRefresh: function(){
-        var _this = this;
-        var _hash = window.location.hash;
-        if(_hash){
-            _this.loaderHandler(_hash);
-        }
-    },
-    fileReaderCtrl: function(){
-        $("#file-upload").on('change', function(){
-            var _name = $(this)[0].files[0].name;
-            $("#file_name").text(_name);
-        });
-
     },
     sidebarController: function(){
         
@@ -311,23 +202,27 @@ var app = {
         var Shuffle = window.Shuffle;
         
         var Demo = function (element) {
-          this.element = element;
+            if(!element){
+                return;
+            }
+            
+            this.element = element;
         
-          this.shuffle = new Shuffle(element, {
-            itemSelector: '.products__column',
-            sizer: element.querySelector('.my-sizer-element'),
-          });
-        
-          // Log events.
-          this.addShuffleEventListeners();
-        
-          this._activeFilters = [];
-        
-          this.addFilterButtons();
-          this.addSorting();
-          this.addSearchFilter();
-        
-          this.mode = 'exclusive';
+            this.shuffle = new Shuffle(element, {
+                itemSelector: '.products__column',
+                sizer: element.querySelector('.my-sizer-element'),
+            });
+            
+            // Log events.
+            this.addShuffleEventListeners();
+            
+            this._activeFilters = [];
+            
+            this.addFilterButtons();
+            this.addSorting();
+            this.addSearchFilter();
+            
+            this.mode = 'exclusive';
         };
         
         Demo.prototype.toggleMode = function () {

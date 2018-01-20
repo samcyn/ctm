@@ -1,0 +1,68 @@
+.accounts{
+    margin-top: 40px;
+    input{
+        padding: 12px 12px 12px 24px !important;
+        line-height: 22px;
+        font-family: 'Lato-Bold';
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: $brand-color-crimson !important;
+        border-radius: 40px !important;
+        border: 1px solid $brand-color-crimson !important;
+    }
+    input[type=email].input-alternate:hover,
+    input[type=email].input-alternate:focus,
+    input[type=password].input-alternate:hover,
+    input[type=password].input-alternate:focus{
+        border-radius: 40px !important;
+    }
+}
+
+.accounts__wrapper{
+    max-width: 361px;
+    margin: 0 auto !important;
+}
+
+.accounts__social{
+    margin-bottom: 48px;
+}
+
+.accounts__option{
+    line-height: 17px;
+    font-family: 'Lato-Bold';
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 0;
+    a{
+        color: $brand-color-crimson;
+    }
+}
+
+.divider{
+    text-align: center;
+    border-top: 1px solid #CDCDCD;
+    margin: 0 auto 25px auto;
+    display: block;
+    .divider__word{
+        position: relative;
+        top: -13px;
+        width: 40px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        line-height: 22px;
+        font-family: 'Lato';
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #CDCDCD;
+    }
+}

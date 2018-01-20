@@ -99,14 +99,15 @@
                                
                                 <div class="products__table-editor">
 
-                                    <form method="" class="projects__form" id="create_project_form" data-parsley-validate="" novalidate="">
+                                    <form method="" class="projects__form" id="#" data-parsley-validate="" novalidate="">
                                         <div class="row">
                                             <div class="col-12 col-md-12">
                                                 <div class="md-form mb-32">
                                                     <select 
                                                         placeholder = "Select a product"
                                                         class="input-alternate form-control" 
-                                                        id="title" name="title">
+                                                        id="title" name="title"
+                                                        data-parsley-trigger="change" required="">
                                                         <option value="" selected>Select a product</option>
                                                     </select>
                                                 </div>
@@ -117,7 +118,8 @@
                                                     <select 
                                                         placeholder = "Select a product"
                                                         class="input-alternate form-control" 
-                                                        id="title" name="title">
+                                                        id="title" name="title"
+                                                        data-parsley-trigger="change" required="">
                                                         <option value=""  selected>Select a product</option>
                                                     </select>
                                                 </div>
@@ -128,7 +130,8 @@
                                                     <select 
                                                         placeholder = "Select a product"
                                                         class="input-alternate form-control" 
-                                                        id="title" name="title">
+                                                        id="title" name="title"
+                                                        data-parsley-trigger="change" required="">
                                                         <option value="" selected>Select a product</option>
                                                     </select>
                                                 </div>
@@ -165,6 +168,7 @@
         
         <script type="text/javascript" src="assets/node_modules/shufflejs/shuffle.min.js"></script>
        
+        <script src="assets/node_modules/parsley/parsley.min.js"></script>
         <!-- Main Js -->
         <script type="text/javascript" src="assets/js/main.js"></script>
         
