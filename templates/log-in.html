@@ -48,41 +48,43 @@
             <!-- MAIN CONTENTS -->
             <main>
                 <section class="accounts">
-                    <div class="accounts__wrapper">
-                        <div class="accounts__social">
-                            <button class="btn btn-brand btn-block btn-brand--facebook btn--brand-round mt-0 mb-32 ml-0 mr-0">
-                                <i class="fa fa-facebook mr-3" aria-hidden="true"></i> Log In with Facebook
-                            </button>
-                            <button class="btn btn-brand btn-block btn-brand--twitter btn--brand-round mt-0 mb-0 ml-0 mr-0">
-                                <i class="fa fa-twitter mr-3" aria-hidden="true"></i> Log In with Twitter
-                            </button>
+                    <div class="container">
+                        <div class="accounts__wrapper">
+                            <div class="accounts__social">
+                                <button class="btn btn-brand btn-block btn-brand--facebook btn--brand-round mt-0 mb-32 ml-0 mr-0">
+                                    <i class="fa fa-facebook mr-3" aria-hidden="true"></i> Log In with Facebook
+                                </button>
+                                <button class="btn btn-brand btn-block btn-brand--twitter btn--brand-round mt-0 mb-0 ml-0 mr-0">
+                                    <i class="fa fa-twitter mr-3" aria-hidden="true"></i> Log In with Twitter
+                                </button>
+                            </div>
+                            <div class="divider">
+                                <div class="divider__word">Or</div>
+                            </div>
+                            <form method="" class="accounts__form" id="#" data-parsley-validate="" novalidate="">
+                                <div class="md-form mb-32">
+                                    <input 
+                                        placeholder = "Email Address"
+                                        class="input-alternate form-control" 
+                                        name="email"
+                                        type="email"
+                                        data-parsley-trigger="change" required=""/>
+                                </div>
+                                <div class="md-form mb-32">
+                                    <input 
+                                        placeholder = "Password"
+                                        class="input-alternate form-control" 
+                                        name="password"
+                                        type="password"
+                                        data-parsley-trigger="change" required=""/>
+                                </div>
+                                <div class="md-form">
+                                    <button class="btn btn-brand btn-block btn-brand--crimson btn--brand-round mt-0 mb-0 ml-0 mr-0">Log In</button>
+                                </div>
+                                <p class="accounts__option mb-3"><a href="#">Forgot Password?</a></p>
+                                <p class="accounts__option">Don’t have an account? <a href="sign-up.html">Sign Up here</a></p>
+                            </form>
                         </div>
-                        <div class="divider">
-                            <div class="divider__word">Or</div>
-                        </div>
-                        <form method="" class="accounts__form" id="#" data-parsley-validate="" novalidate="">
-                            <div class="md-form mb-32">
-                                <input 
-                                    placeholder = "Email Address"
-                                    class="input-alternate form-control" 
-                                    name="email"
-                                    type="email"
-                                    data-parsley-trigger="change" required=""/>
-                            </div>
-                            <div class="md-form mb-32">
-                                <input 
-                                    placeholder = "Password"
-                                    class="input-alternate form-control" 
-                                    name="password"
-                                    type="password"
-                                    data-parsley-trigger="change" required=""/>
-                            </div>
-                            <div class="md-form">
-                                <button class="btn btn-brand btn-block btn-brand--crimson btn--brand-round mt-0 mb-0 ml-0 mr-0">Log In</button>
-                            </div>
-                            <p class="accounts__option mb-3"><a href="#">Forgot Password?</a></p>
-                            <p class="accounts__option">Don’t have an account? <a href="sign-up.html">Sign Up here</a></p>
-                        </form>
                     </div>
                 </section>
             </main>
