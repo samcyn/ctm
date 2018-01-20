@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Compare The Market</title>
+
+        <!-- Custom Modal -->
+        <link rel="stylesheet" href="assets/node_modules/custombox/dist/custombox.min.css">
+        
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="assets/node_modules/font-awesome/css/font-awesome.min.css">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/node_modules/mdbootstrap/css/bootstrap.min.css">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/node_modules/mdbootstrap/css/mdb.min.css">
+
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+		
+
+		
+	</head>
+	<body>
+
+		<div class="wrapper product-page">
+            <!-- Header -->
+            <header>
+                <!--Navbar-->
+                <nav class="mb-1 navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/logo/ctm-logo_2.png"/>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                    </div>
+                </nav>
+            </header>
+
+            <!-- MAIN CONTENTS -->
+            <main>
+                <section class="accounts">
+                    <div class="accounts__wrapper">
+                        <form method="" class="accounts__form" id="#" data-parsley-validate="" novalidate="">
+                            <div class="md-form mb-32">
+                                <input 
+                                    placeholder = "Email Address"
+                                    class="input-alternate form-control" 
+                                    name="email"
+                                    type="email"
+                                    data-parsley-trigger="change" required=""/>
+                            </div>
+                            <div class="md-form mb-32">
+                                <input 
+                                    placeholder = "Password"
+                                    class="input-alternate form-control" 
+                                    name="password"
+                                    type="password"
+                                    id="password"
+                                    data-parsley-trigger="change" required=""/>
+                            </div>
+                            <div class="md-form mb-48">
+                                <input 
+                                    placeholder = "Confirm Password"
+                                    class="input-alternate form-control" 
+                                    name="password2"
+                                    type="password"
+                                    data-parsley-trigger="change" required=""
+                                    data-parsley-equalto="#password"/>
+                            </div>
+                            <div class="md-form">
+                                <button class="btn btn-brand btn-block btn-brand--crimson btn--brand-round mt-0 mb-0 ml-0 mr-0">Sign Up</button>
+                            </div>
+                            <p class="accounts__option">Already have an account? <a href="log-in.html">Log In here</a></p>
+                        </form>
+                    </div>
+                </section>
+            </main>
+           
+		</div>
+		
+		<script type="text/javascript" src="assets/node_modules/mdbootstrap/js/jquery-3.2.1.min.js"></script>
+
+		<script type="text/javascript" src="assets/node_modules/mdbootstrap/js/popper.min.js"></script>
+
+        <script type="text/javascript" src="assets/node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+        
+        <script src="assets/node_modules/parsley/parsley.min.js"></script>
+        <!-- Main Js -->
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        
+        <script>
+            
+        </script>
+		
+	</body>
+</html>

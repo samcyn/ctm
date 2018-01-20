@@ -140,8 +140,13 @@ body{
     color: $brand_color_crimson;
 }
 .products__active{
-    .products__circle-crimson-bg{
+    .products__circle-crimson-bg,
+    .products__circle-crimson-bd
+    {
         background: $brand_color_crimson;
+        .products__circle-text{
+            color: #FFFFFF;
+        }
     }
     .products__circle-orange-bg{
         background: $brand_color_orange;
@@ -151,6 +156,9 @@ body{
     }
     .products__circle-brown-bg{
         background: $brand_color_brown;
+    }
+    .products__circle-yellow-bd{
+        background: $brand_color_yellow;
     }
 }
 
@@ -423,5 +431,13 @@ body{
     }
     i{
         font-size: 12px;
+    }
+}
+
+.products__fixed-pole{
+    position: fixed;
+    bottom: 40px;
+    a{
+        display: block;
     }
 }

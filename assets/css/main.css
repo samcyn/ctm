@@ -109,100 +109,100 @@ input {
 
 /* line 25, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .mb-48 {
-  margin-bottom: 48 px !important;
+  margin-bottom: 48px !important;
 }
 
-/* line 29, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 28, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .mt-35 {
   margin-top: 35px !important;
 }
 
-/* line 33, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 32, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .mt-95 {
   margin-top: 95px !important;
 }
 
-/* line 37, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 36, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .mb-95 {
   margin-bottom: 95px !important;
 }
 
-/* line 40, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 39, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .mt-52 {
   margin-top: 52px !important;
 }
 
-/* line 43, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 42, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .mb-80 {
   margin-bottom: 80px !important;
 }
 
-/* line 48, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 47, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .c-red {
   color: #FF0000 !important;
 }
 
-/* line 52, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 51, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .c-blue {
   color: #6EC0D4 !important;
 }
 
-/* line 57, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 56, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .fw-600 {
   font-weight: 600 !important;
 }
 
-/* line 62, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 61, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .opacity_1 {
   opacity: 1 !important;
 }
 
-/* line 67, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 66, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pos-rel {
   position: relative;
 }
 
-/* line 70, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 69, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pos-abs {
   position: absolute;
 }
 
-/* line 75, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 74, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .list-style-type-none {
   list-style-type: none !important;
 }
 
-/* line 80, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 79, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pt-24 {
   padding-top: 24px;
 }
 
-/* line 83, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 82, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pr-32 {
   padding-right: 32px;
 }
 
-/* line 86, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 85, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pr-67 {
   padding-right: 67px;
 }
 
-/* line 90, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 89, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pt-6 {
   padding-top: 6px;
 }
 
-/* line 94, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 93, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .pb-6 {
   padding-bottom: 6px;
 }
 
-/* line 99, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 98, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .no-shadow {
   box-shadow: none !important;
 }
 
-/* line 104, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
+/* line 103, /home/jide/Documents/repos/ctm/templates/assets/scss/base/_base.scss */
 .dis-block {
   display: block;
 }
@@ -431,6 +431,88 @@ input {
 /* line 68, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_navbar.scss */
 .navbar .nav-item:last-child .nav-link {
   padding-right: 0 !important;
+}
+
+/* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts {
+  margin-top: 40px;
+}
+
+/* line 3, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts input {
+  padding: 12px 12px 12px 24px !important;
+  line-height: 22px;
+  font-family: 'Lato-Bold';
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #F6334B !important;
+  border-radius: 40px !important;
+  border: 1px solid #F6334B !important;
+}
+
+/* line 15, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts input[type=email].input-alternate:hover,
+.accounts input[type=email].input-alternate:focus,
+.accounts input[type=password].input-alternate:hover,
+.accounts input[type=password].input-alternate:focus {
+  border-radius: 40px !important;
+}
+
+/* line 23, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts__wrapper {
+  max-width: 361px;
+  margin: 0 auto !important;
+}
+
+/* line 28, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts__social {
+  margin-bottom: 48px;
+}
+
+/* line 32, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts__option {
+  line-height: 17px;
+  font-family: 'Lato-Bold';
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4A4A4A;
+  margin-bottom: 0;
+}
+
+/* line 43, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts__option a {
+  color: #F6334B;
+}
+
+/* line 48, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.divider {
+  text-align: center;
+  border-top: 1px solid #CDCDCD;
+  margin: 0 auto 25px auto;
+  display: block;
+}
+
+/* line 53, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.divider .divider__word {
+  position: relative;
+  top: -13px;
+  width: 40px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  line-height: 22px;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #CDCDCD;
 }
 
 /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_landing-page.scss */
@@ -674,26 +756,38 @@ body {
 }
 
 /* line 143, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
-.products__active .products__circle-crimson-bg {
+.products__active .products__circle-crimson-bg,
+.products__active .products__circle-crimson-bd {
   background: #F6334B;
 }
 
-/* line 146, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 147, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__active .products__circle-crimson-bg .products__circle-text,
+.products__active .products__circle-crimson-bd .products__circle-text {
+  color: #FFFFFF;
+}
+
+/* line 151, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__active .products__circle-orange-bg {
   background: #F79D0B;
 }
 
-/* line 149, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 154, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__active .products__circle-green-bg {
   background: #6DA544;
 }
 
-/* line 152, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 157, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__active .products__circle-brown-bg {
   background: #8B572A;
 }
 
-/* line 157, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 160, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__active .products__circle-yellow-bd {
+  background: #FFF000;
+}
+
+/* line 165, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__img-list {
   height: 96px;
   width: 96px;
@@ -701,7 +795,7 @@ body {
   margin: 0 auto;
 }
 
-/* line 164, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 172, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__text {
   text-align: center;
   margin: 16px 0 0 0 !important;
@@ -716,18 +810,18 @@ body {
   color: #555555;
 }
 
-/* line 178, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 186, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__filter {
   margin-bottom: 56px;
 }
 
-/* line 180, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 188, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__filter .col {
   max-width: 106px;
   text-align: center;
 }
 
-/* line 186, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 194, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__table-editor {
   height: 100%;
   height: 458px;
@@ -736,7 +830,7 @@ body {
   padding: 32px 16px 16px 16px;
 }
 
-/* line 194, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 202, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__responsive-table {
   height: 100%;
   width: 100%;
@@ -744,7 +838,7 @@ body {
   overflow-y: hidden;
 }
 
-/* line 202, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 210, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__cell-img {
   width: 64px;
   height: 64px;
@@ -752,12 +846,12 @@ body {
   margin: 0 auto;
 }
 
-/* line 209, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 217, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__cell-details {
   font-family: 'Lato-Regular';
 }
 
-/* line 211, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 219, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__cell-details p {
   line-height: 17px !important;
   font-size: 14px;
@@ -769,7 +863,7 @@ body {
   margin: 8px 0 2px 0 !important;
 }
 
-/* line 221, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 229, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__cell-details small {
   line-height: 12px !important;
   font-size: 10px;
@@ -781,7 +875,7 @@ body {
   color: #F6334B;
 }
 
-/* line 231, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 239, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__cell-details .projects__cell-price {
   line-height: 22px;
   font-family: 'Lato-Black';
@@ -795,7 +889,7 @@ body {
   color: #404040;
 }
 
-/* line 245, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 253, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption {
   position: absolute;
   width: 100%;
@@ -805,13 +899,13 @@ body {
 }
 
 @media (max-width: 748px) {
-  /* line 245, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+  /* line 253, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
   .pr-caption {
     width: 748px;
   }
 }
 
-/* line 254, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 262, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption p {
   margin-bottom: 0;
   line-height: 22px;
@@ -824,17 +918,17 @@ body {
   letter-spacing: normal;
 }
 
-/* line 266, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 274, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption .pr-caption__grey {
   color: #CDCDCD;
 }
 
-/* line 269, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 277, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption .pr-caption__dark {
   color: #4a4a4a;
 }
 
-/* line 274, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 282, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table {
   position: absolute;
   width: 100%;
@@ -842,13 +936,13 @@ body {
 }
 
 @media (max-width: 748px) {
-  /* line 274, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+  /* line 282, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
   .pr-table {
     width: 748px;
   }
 }
 
-/* line 281, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 289, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__head {
   border-bottom: solid 2px #E1E1E1;
   line-height: 22px;
@@ -862,13 +956,13 @@ body {
   color: #555555;
 }
 
-/* line 283, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 291, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__head .pr-table__col:first-child {
   flex: 0 0 150px;
   border-right: 1px solid #E1E1E1;
 }
 
-/* line 297, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 305, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__body {
   height: 236px;
   overflow-y: scroll;
@@ -883,41 +977,41 @@ body {
   color: #404040;
 }
 
-/* line 310, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 318, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__body .pr-table__col {
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
-/* line 314, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 322, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__body .pr-table__col:first-child {
   flex: 0 0 150px;
   border-right: 1px solid #E1E1E1;
 }
 
-/* line 320, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 328, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__foot {
   height: 80px;
   border-top: solid 2px #E1E1E1;
 }
 
-/* line 323, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 331, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__foot .pr-table__col {
   padding-bottom: 0 !important;
 }
 
-/* line 326, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 334, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__foot .pr-table__col:first-child {
   flex: 0 0 150px;
 }
 
-/* line 330, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 338, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__rows {
   width: 100%;
   display: flex;
 }
 
-/* line 334, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 342, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__col {
   flex: 1;
   display: flex;
@@ -927,7 +1021,7 @@ body {
   justify-content: center;
 }
 
-/* line 342, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 350, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .btn {
   font-family: 'Lato-Black';
   font-size: 18px;
@@ -940,25 +1034,25 @@ body {
   max-width: 114px;
 }
 
-/* line 353, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 361, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .btn-brand--crimson {
   padding-top: 13px !important;
   padding-bottom: 13px !important;
 }
 
-/* line 357, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 365, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .btn--brand-outline-crimson {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-/* line 364, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 372, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__form {
   max-width: 567px;
   margin: 0 auto;
 }
 
-/* line 367, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 375, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__form select {
   max-width: 263px;
   height: 48px !important;
@@ -974,13 +1068,13 @@ body {
   margin: 0 auto !important;
 }
 
-/* line 381, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 389, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__form .btn--brand-outline {
   width: 263px;
   padding: 12px 22px;
 }
 
-/* line 388, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 396, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__weight h1 {
   line-height: 39px;
   font-family: 'Lato-Black';
@@ -993,7 +1087,7 @@ body {
   margin: 0;
 }
 
-/* line 401, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 409, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__history-title {
   line-height: 22px;
   font-family: 'Lato-Bold';
@@ -1005,7 +1099,7 @@ body {
   color: #555555;
 }
 
-/* line 413, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 421, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__history-date span {
   line-height: 17px;
   font-family: 'Lato-Bold';
@@ -1018,9 +1112,20 @@ body {
   margin-right: 16px;
 }
 
-/* line 424, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 432, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__history-date i {
   font-size: 12px;
+}
+
+/* line 437, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__fixed-pole {
+  position: fixed;
+  bottom: 40px;
+}
+
+/* line 440, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+.products__fixed-pole a {
+  display: block;
 }
 
 /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_breadcrumb.scss */
@@ -1065,6 +1170,68 @@ body {
 /* line 30, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_breadcrumb.scss */
 .breadcrumb-item.active {
   color: #828282 !important;
+}
+
+/* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+.modal {
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+  display: none;
+  padding: 24px !important;
+  position: relative;
+  width: 100%;
+}
+
+/* line 10, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+.modal input[type='file'] {
+  display: none;
+}
+
+/* line 13, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+.modal label {
+  display: block;
+  max-width: 263px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 525px) {
+  /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+  .modal {
+    padding: 32px 15px 26px 15px !important;
+  }
+}
+
+/* line 24, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+.modal__heading {
+  line-height: 22px;
+  font-family: 'Lato-Bold';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #404040;
+}
+
+/* line 35, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+.modal__img-list {
+  width: 88px;
+  height: 88px;
+}
+
+/* line 40, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_modals.scss */
+.modal__text {
+  line-height: 29px;
+  font-family: 'Lato-Regular';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #555555;
+  margin: 0 0 0 16px;
 }
 
 /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/layout/_footer.scss */
@@ -1165,36 +1332,48 @@ body {
   color: #FFFFFF;
 }
 
-/* line 36, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+/* line 37, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+.btn-brand--facebook {
+  background: #334E8A;
+  color: #FFFFFF;
+}
+
+/* line 42, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+.btn-brand--twitter {
+  background: #4099FF;
+  color: #FFFFFF;
+}
+
+/* line 47, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
 .btn-brand--dark {
   background: #555555;
   color: #FFFFFF;
 }
 
-/* line 41, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+/* line 52, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
 .btn--brand-outline {
   background-color: transparent;
 }
 
-/* line 43, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+/* line 54, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
 .btn--brand-outline:hover {
   box-shadow: none !important;
 }
 
-/* line 48, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+/* line 59, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
 .btn--brand-outline-crimson {
   border: 1px solid #F6334B;
   color: #F6334B !important;
 }
 
-/* line 53, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+/* line 64, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
 .btn--brand-outline-yellow {
   box-shadow: none;
   border: 1px solid #FFF000;
   color: #FFF000 !important;
 }
 
-/* line 59, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
+/* line 70, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_buttons.scss */
 .btn--brand-round {
   border-radius: 40px !important;
 }
