@@ -460,18 +460,46 @@ input {
   border-radius: 40px !important;
 }
 
-/* line 23, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+/* line 21, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #F6334B;
+  opacity: 0.32;
+}
+
+/* line 25, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #F6334B;
+  opacity: 0.32;
+}
+
+/* line 29, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #F6334B;
+  opacity: 0.32;
+}
+
+/* line 33, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+.accounts :-moz-placeholder {
+  /* Firefox 18- */
+  color: #F6334B;
+  opacity: 0.32;
+}
+
+/* line 39, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
 .accounts__wrapper {
   max-width: 361px;
   margin: 0 auto !important;
 }
 
-/* line 28, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+/* line 44, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
 .accounts__social {
   margin-bottom: 48px;
 }
 
-/* line 32, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+/* line 48, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
 .accounts__option {
   line-height: 17px;
   font-family: 'Lato-Bold';
@@ -485,12 +513,12 @@ input {
   margin-bottom: 0;
 }
 
-/* line 43, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+/* line 59, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
 .accounts__option a {
   color: #F6334B;
 }
 
-/* line 48, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+/* line 64, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
 .divider {
   text-align: center;
   border-top: 1px solid #CDCDCD;
@@ -498,7 +526,7 @@ input {
   display: block;
 }
 
-/* line 53, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
+/* line 69, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_accounts.scss */
 .divider .divider__word {
   position: relative;
   top: -13px;
@@ -1232,6 +1260,16 @@ body {
   letter-spacing: normal;
   color: #555555;
   margin: 0 0 0 16px;
+}
+
+/* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/components/_parsley-error.scss */
+.parsley-errors-list.filled {
+  list-style-type: none;
+  padding-left: 0;
+  font-family: 'Nunito-Regular';
+  font-size: 14px;
+  font-weight: 700;
+  color: #F6334B;
 }
 
 /* line 1, /home/jide/Documents/repos/ctm/templates/assets/scss/layout/_footer.scss */
