@@ -29,15 +29,31 @@
     color: #FFF;
 }
 
+.btn-brand--crimson{
+    background: $brand-color-crimson;
+    color: #FFFFFF;
+}
+.btn-brand--dark{
+    background: $brand-color-dark;
+    color: #FFFFFF;
+}
+
 .btn--brand-outline{
-    box-shadow: none;
-    border: 1px solid $brand_color_yellow;
-    color: $brand_color_yellow !important;
     background-color: transparent;
-    padding: 12px 22px;
     &:hover{
         box-shadow: none !important;
     }
+}
+
+.btn--brand-outline-crimson{
+    border: 1px solid $brand-color-crimson;
+    color: $brand-color-crimson !important;
+}
+
+.btn--brand-outline-yellow{
+    box-shadow: none;
+    border: 1px solid $brand_color_yellow;
+    color: $brand_color_yellow !important;
 }
 
 .btn--brand-round{

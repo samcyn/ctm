@@ -1,6 +1,6 @@
 .breadcrumb-container{
     position: absolute;
-    top: -58px;
+    top: 0;
     @media(max-width: 475px){
         display: none;
     }
@@ -9,6 +9,7 @@
     background-color: transparent;
     padding-left: 0 !important;
     margin-bottom: 0;
+    padding: 0 !important;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
