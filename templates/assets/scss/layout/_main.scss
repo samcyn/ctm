@@ -1,6 +1,22 @@
+@import '../modules/_aside.scss';
 @import '../modules/_accounts.scss';
 @import '../modules/_landing-page.scss';
 @import '../modules/_product-page.scss';
 @import '../components/_breadcrumb.scss';
 @import '../components/_modals.scss';
 @import '../components/_parsley-error.scss';
+
+
+html, body{
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+main{
+    position: relative;
+    padding-top: 90px; //height of header.
+}
