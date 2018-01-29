@@ -42,15 +42,24 @@ var app = {
                     var $navbar = $('nav').find('.navbar-collapse').first().clone(true);
 
                     //get the left sidebar ready
-                    var $sidebar = $('.products__menu-right').first().clone(true);
+                    var $left_sidebar = $('.products__menu-left').first().clone(true);
+
+                    //get the right sidebar ready
+                    var $right_sidebar = $('.products__menu-right').first().clone(true);
+                    
                     
                     //define an empty list to add items..
                     var ul_content = '';
 
 
-                    $sidebar.children('ul').each(function(){
+                    $left_sidebar.children('ul').each(function(){
                         ul_content += $(this).html();
                     });
+
+                    $right_sidebar.children('ul').each(function(){
+                        ul_content += $(this).html();
+                    });
+                        
                         
                     //add the content from the regular header to the right menu
                     $navbar.children('ul').each(function(){
