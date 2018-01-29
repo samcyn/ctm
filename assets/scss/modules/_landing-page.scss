@@ -7,9 +7,6 @@
     position: relative;
     width: 100vw;
     
-    header,main{
-        position: relative;
-    }
     &:before{
         background: rgba(0, 0, 0, 0.47);
         content: '';

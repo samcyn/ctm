@@ -40,13 +40,18 @@ var app = {
                 if(!navbar_initialized){
                     //clone the navbar
                     var $navbar = $('nav').find('.navbar-collapse').first().clone(true);
-                    
-                    console.log($navbar);
-                    
+
+                    //get the left sidebar ready
+                    var $sidebar = $('.products__menu-right').first().clone(true);
                     
                     //define an empty list to add items..
                     var ul_content = '';
-                    
+
+
+                    $sidebar.children('ul').each(function(){
+                        ul_content += $(this).html();
+                    });
+                        
                     //add the content from the regular header to the right menu
                     $navbar.children('ul').each(function(){
                         ul_content +=   $(this).html();  
@@ -54,6 +59,8 @@ var app = {
                     
                     ul_content = '<aside class="rightSideBar"><ul class="menus">' + ul_content + '</ul></aside>';
                     
+                    console.log(ul_content);
+
                     $('body').append(ul_content);
                 
                     var $toggle = $('.navbar-toggler');
