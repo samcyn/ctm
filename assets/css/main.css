@@ -973,8 +973,6 @@ body {
 
 /* line 256, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__table-editor {
-  height: 100%;
-  height: 458px;
   border-radius: 4px;
   border: solid 1px #E1E1E1;
   padding: 32px 16px 16px 16px;
@@ -1041,9 +1039,9 @@ body {
 
 /* line 315, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption {
-  position: absolute;
   width: 100%;
   padding: 0 16px;
+  margin-bottom: 45px;
   display: flex;
   justify-content: space-between;
 }
@@ -1055,7 +1053,7 @@ body {
   }
 }
 
-/* line 324, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 325, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption p {
   margin-bottom: 0;
   line-height: 22px;
@@ -1068,31 +1066,30 @@ body {
   letter-spacing: normal;
 }
 
-/* line 336, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 337, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption .pr-caption__grey {
   color: #CDCDCD;
 }
 
-/* line 339, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 340, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-caption .pr-caption__dark {
   color: #4a4a4a;
 }
 
-/* line 344, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 345, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table {
-  position: absolute;
   width: 100%;
   top: 45px;
 }
 
 @media (max-width: 748px) {
-  /* line 344, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+  /* line 345, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
   .pr-table {
     width: 748px;
   }
 }
 
-/* line 351, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 352, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__head {
   border-bottom: solid 2px #E1E1E1;
   line-height: 22px;
@@ -1106,16 +1103,14 @@ body {
   color: #555555;
 }
 
-/* line 353, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 354, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__head .pr-table__col:first-child {
   flex: 0 0 150px;
   border-right: 1px solid #E1E1E1;
 }
 
-/* line 367, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 368, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__body {
-  height: 236px;
-  overflow-y: scroll;
   overflow-x: hidden;
   line-height: 22px;
   font-family: 'Lato-Regular';
@@ -1127,41 +1122,41 @@ body {
   color: #404040;
 }
 
-/* line 380, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 381, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__body .pr-table__col {
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
-/* line 384, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 385, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__body .pr-table__col:first-child {
   flex: 0 0 150px;
   border-right: 1px solid #E1E1E1;
 }
 
-/* line 390, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 391, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__foot {
   height: 80px;
   border-top: solid 2px #E1E1E1;
 }
 
-/* line 393, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 394, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__foot .pr-table__col {
   padding-bottom: 0 !important;
 }
 
-/* line 396, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 397, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__foot .pr-table__col:first-child {
   flex: 0 0 150px;
 }
 
-/* line 400, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 401, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__rows {
   width: 100%;
   display: flex;
 }
 
-/* line 404, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 405, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .pr-table__col {
   flex: 1;
   display: flex;
@@ -1171,7 +1166,7 @@ body {
   justify-content: center;
 }
 
-/* line 412, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 413, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .btn {
   font-family: 'Lato-Black';
   font-size: 18px;
@@ -1184,25 +1179,25 @@ body {
   max-width: 114px;
 }
 
-/* line 423, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 424, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .btn-brand--crimson {
   padding-top: 13px !important;
   padding-bottom: 13px !important;
 }
 
-/* line 427, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 428, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .pr-table .btn--brand-outline-crimson {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-/* line 434, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 435, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__form {
   max-width: 567px;
   margin: 0 auto;
 }
 
-/* line 437, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 438, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__form select {
   max-width: 263px;
   height: 48px !important;
@@ -1218,13 +1213,13 @@ body {
   margin: 0 auto !important;
 }
 
-/* line 451, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 452, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .projects__form .btn--brand-outline {
   width: 263px;
   padding: 12px 22px;
 }
 
-/* line 458, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 459, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__weight h1 {
   line-height: 39px;
   font-family: 'Lato-Black';
@@ -1237,7 +1232,7 @@ body {
   margin: 0;
 }
 
-/* line 471, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 472, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__history-title {
   line-height: 22px;
   font-family: 'Lato-Bold';
@@ -1249,7 +1244,7 @@ body {
   color: #555555;
 }
 
-/* line 483, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 484, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__history-date span {
   line-height: 17px;
   font-family: 'Lato-Bold';
@@ -1262,19 +1257,19 @@ body {
   margin-right: 16px;
 }
 
-/* line 494, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 495, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__history-date i {
   font-size: 12px;
 }
 
-/* line 499, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 500, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__fixed-pole {
   position: fixed;
   bottom: 40px;
   right: 72px;
 }
 
-/* line 503, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
+/* line 504, /home/jide/Documents/repos/ctm/templates/assets/scss/modules/_product-page.scss */
 .products__fixed-pole a {
   display: block;
 }
