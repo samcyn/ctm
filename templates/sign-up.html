@@ -50,7 +50,7 @@
                 <section class="accounts">
                     <div class="container">
                         <div class="accounts__wrapper">
-                            <form method="" class="accounts__form" id="#" data-parsley-validate="" novalidate="">
+                            <form method="" class="accounts__form" id="#signUp" data-parsley-validate="" novalidate="">
                                 <div class="md-form mb-32">
                                     <input 
                                         placeholder = "Email Address"
@@ -96,8 +96,24 @@
         <script type="text/javascript" src="assets/node_modules/mdbootstrap/js/bootstrap.min.js"></script>
         
         <script src="assets/node_modules/parsley/parsley.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDtwQkIsVqYbESXodOH1VLsKrsMJjIbIPQ",
+            authDomain: "switchack-a3052.firebaseapp.com",
+            databaseURL: "https://switchack-a3052.firebaseio.com",
+            projectId: "switchack-a3052",
+            storageBucket: "switchack-a3052.appspot.com",
+            messagingSenderId: "181201139416"
+          };
+          firebase.initializeApp(config);
+        </script>
+
         <!-- Main Js -->
         <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
         
         <script>
             
