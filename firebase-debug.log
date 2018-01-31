@@ -1,0 +1,32 @@
+[debug] [2018-01-31T15:12:32.509Z] ----------------------------------------------------------------------
+[debug] [2018-01-31T15:12:32.511Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-31T15:12:32.511Z] CLI Version:   3.17.4
+[debug] [2018-01-31T15:12:32.511Z] Platform:      linux
+[debug] [2018-01-31T15:12:32.511Z] Node Version:  v8.6.0
+[debug] [2018-01-31T15:12:32.511Z] Time:          Wed Jan 31 2018 16:12:32 GMT+0100 (WAT)
+[debug] [2018-01-31T15:12:32.511Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-31T15:12:32.548Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-31T15:12:32.549Z] > authorizing via signed-in user
+[debug] [2018-01-31T15:12:32.550Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/switchack-a3052  
+  
+ Wed Jan 31 2018 16:12:32 GMT+0100 (WAT)
+[debug] [2018-01-31T15:12:44.164Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-31T15:12:44.165Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/switchack-a3052/tokens  
+  
+ Wed Jan 31 2018 16:12:44 GMT+0100 (WAT)
+[debug] [2018-01-31T15:12:53.486Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/jide/Documents/repos/ctm'...
+[info] 
+[debug] [2018-01-31T15:12:53.488Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/switchack-a3052  
+  
+ Wed Jan 31 2018 16:12:53 GMT+0100 (WAT)
+[debug] [2018-01-31T15:13:00.331Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-31T15:13:00.332Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/181201139416/clients/_:getWebAppConfig  
+  
+ Wed Jan 31 2018 16:13:00 GMT+0100 (WAT)
+[debug] [2018-01-31T15:13:07.585Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
